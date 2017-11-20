@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com-byteslounge-websockets:war exploded">
+    <output-path>$PROJECT_DIR$/target/com-byteslounge-websockets-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com-byteslounge-websockets" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-client:9.4.5.v20170502" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.4.5.v20170502" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.4.5.v20170502" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-client:9.4.5.v20170502" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.4.5.v20170502" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.4.5.v20170502" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.4.5.v20170502" />
+          <element id="library" level="project" name="Maven: org.json:json:20171018" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/com-byteslounge-websockets-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="com-byteslounge-websockets/web/Web" />
+    </root>
+  </artifact>
+</component>
